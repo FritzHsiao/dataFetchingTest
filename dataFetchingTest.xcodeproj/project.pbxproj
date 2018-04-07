@@ -16,6 +16,14 @@
 		1F11F4F42078993F00CFF077 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F11F4F32078993F00CFF077 /* main.m */; };
 		1F11F4FE2078993F00CFF077 /* dataFetchingTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F11F4FD2078993F00CFF077 /* dataFetchingTestTests.m */; };
 		1F11F5092078993F00CFF077 /* dataFetchingTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F11F5082078993F00CFF077 /* dataFetchingTestUITests.m */; };
+		1F11F51F207899BF00CFF077 /* NetworkUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F11F518207899BE00CFF077 /* NetworkUtility.m */; };
+		1F11F520207899BF00CFF077 /* DBUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F11F519207899BF00CFF077 /* DBUtility.m */; };
+		1F11F521207899BF00CFF077 /* CommonUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F11F51A207899BF00CFF077 /* CommonUtility.m */; };
+		1F11F522207899BF00CFF077 /* AuthUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F11F51C207899BF00CFF077 /* AuthUtility.m */; };
+		1F11F524207899FE00CFF077 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1F11F523207899FE00CFF077 /* Podfile */; };
+		51598FEF505CC5CF627B49E8 /* libPods-dataFetchingTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD8F0FBCAAFD3C5F3695DF5 /* libPods-dataFetchingTestTests.a */; };
+		5B63F94DF85ACE5E65B5A6AC /* libPods-dataFetchingTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0156F933F79C96D0D68194B7 /* libPods-dataFetchingTest.a */; };
+		9BB5280F26F9A0B17AD793DC /* libPods-dataFetchingTestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6B07C5916BA006EBDAD389 /* libPods-dataFetchingTestUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0156F933F79C96D0D68194B7 /* libPods-dataFetchingTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dataFetchingTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F11F4DE2078993E00CFF077 /* dataFetchingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dataFetchingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F11F4E12078993E00CFF077 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1F11F4E22078993E00CFF077 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +62,23 @@
 		1F11F5042078993F00CFF077 /* dataFetchingTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dataFetchingTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F11F5082078993F00CFF077 /* dataFetchingTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dataFetchingTestUITests.m; sourceTree = "<group>"; };
 		1F11F50A2078993F00CFF077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F11F517207899BE00CFF077 /* DBUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBUtility.h; sourceTree = "<group>"; };
+		1F11F518207899BE00CFF077 /* NetworkUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkUtility.m; sourceTree = "<group>"; };
+		1F11F519207899BF00CFF077 /* DBUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBUtility.m; sourceTree = "<group>"; };
+		1F11F51A207899BF00CFF077 /* CommonUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtility.m; sourceTree = "<group>"; };
+		1F11F51B207899BF00CFF077 /* AuthUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthUtility.h; sourceTree = "<group>"; };
+		1F11F51C207899BF00CFF077 /* AuthUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthUtility.m; sourceTree = "<group>"; };
+		1F11F51D207899BF00CFF077 /* CommonUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtility.h; sourceTree = "<group>"; };
+		1F11F51E207899BF00CFF077 /* NetworkUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkUtility.h; sourceTree = "<group>"; };
+		1F11F523207899FE00CFF077 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		44676A8596971F252F5A140A /* Pods-dataFetchingTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dataFetchingTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-dataFetchingTestUITests/Pods-dataFetchingTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		45DBAC424771629E81CB1834 /* Pods-dataFetchingTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dataFetchingTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dataFetchingTest/Pods-dataFetchingTest.debug.xcconfig"; sourceTree = "<group>"; };
+		81FF528DD8BC4FCD0EB28C7D /* Pods-dataFetchingTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dataFetchingTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-dataFetchingTestTests/Pods-dataFetchingTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		90102509C151176835066400 /* Pods-dataFetchingTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dataFetchingTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dataFetchingTestUITests/Pods-dataFetchingTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ACD8F0FBCAAFD3C5F3695DF5 /* libPods-dataFetchingTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dataFetchingTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB1220D2F0C7C6C6B055632 /* Pods-dataFetchingTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dataFetchingTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dataFetchingTestTests/Pods-dataFetchingTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF6B07C5916BA006EBDAD389 /* libPods-dataFetchingTestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dataFetchingTestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF759804C59AAA034CC6D33F /* Pods-dataFetchingTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dataFetchingTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-dataFetchingTest/Pods-dataFetchingTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B63F94DF85ACE5E65B5A6AC /* libPods-dataFetchingTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51598FEF505CC5CF627B49E8 /* libPods-dataFetchingTestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BB5280F26F9A0B17AD793DC /* libPods-dataFetchingTestUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,10 +112,13 @@
 		1F11F4D52078993E00CFF077 = {
 			isa = PBXGroup;
 			children = (
+				1F11F516207899AA00CFF077 /* Utility */,
 				1F11F4E02078993E00CFF077 /* dataFetchingTest */,
 				1F11F4FC2078993F00CFF077 /* dataFetchingTestTests */,
 				1F11F5072078993F00CFF077 /* dataFetchingTestUITests */,
 				1F11F4DF2078993E00CFF077 /* Products */,
+				5BB2140F0A84AEE8BBB31149 /* Pods */,
+				D706F4AA80D90F21833E9D25 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +135,7 @@
 		1F11F4E02078993E00CFF077 /* dataFetchingTest */ = {
 			isa = PBXGroup;
 			children = (
+				1F11F523207899FE00CFF077 /* Podfile */,
 				1F11F4E12078993E00CFF077 /* AppDelegate.h */,
 				1F11F4E22078993E00CFF077 /* AppDelegate.m */,
 				1F11F4E42078993E00CFF077 /* ViewController.h */,
@@ -135,6 +168,44 @@
 			path = dataFetchingTestUITests;
 			sourceTree = "<group>";
 		};
+		1F11F516207899AA00CFF077 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1F11F51B207899BF00CFF077 /* AuthUtility.h */,
+				1F11F51C207899BF00CFF077 /* AuthUtility.m */,
+				1F11F51D207899BF00CFF077 /* CommonUtility.h */,
+				1F11F51A207899BF00CFF077 /* CommonUtility.m */,
+				1F11F517207899BE00CFF077 /* DBUtility.h */,
+				1F11F519207899BF00CFF077 /* DBUtility.m */,
+				1F11F51E207899BF00CFF077 /* NetworkUtility.h */,
+				1F11F518207899BE00CFF077 /* NetworkUtility.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		5BB2140F0A84AEE8BBB31149 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45DBAC424771629E81CB1834 /* Pods-dataFetchingTest.debug.xcconfig */,
+				FF759804C59AAA034CC6D33F /* Pods-dataFetchingTest.release.xcconfig */,
+				CEB1220D2F0C7C6C6B055632 /* Pods-dataFetchingTestTests.debug.xcconfig */,
+				81FF528DD8BC4FCD0EB28C7D /* Pods-dataFetchingTestTests.release.xcconfig */,
+				90102509C151176835066400 /* Pods-dataFetchingTestUITests.debug.xcconfig */,
+				44676A8596971F252F5A140A /* Pods-dataFetchingTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D706F4AA80D90F21833E9D25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0156F933F79C96D0D68194B7 /* libPods-dataFetchingTest.a */,
+				ACD8F0FBCAAFD3C5F3695DF5 /* libPods-dataFetchingTestTests.a */,
+				FF6B07C5916BA006EBDAD389 /* libPods-dataFetchingTestUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F11F50D2078993F00CFF077 /* Build configuration list for PBXNativeTarget "dataFetchingTest" */;
 			buildPhases = (
+				252A08F83AF1BAB464BE60A8 /* [CP] Check Pods Manifest.lock */,
 				1F11F4DA2078993E00CFF077 /* Sources */,
 				1F11F4DB2078993E00CFF077 /* Frameworks */,
 				1F11F4DC2078993E00CFF077 /* Resources */,
@@ -159,6 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F11F5102078993F00CFF077 /* Build configuration list for PBXNativeTarget "dataFetchingTestTests" */;
 			buildPhases = (
+				AECA930FA217F4D1C06DECA6 /* [CP] Check Pods Manifest.lock */,
 				1F11F4F52078993F00CFF077 /* Sources */,
 				1F11F4F62078993F00CFF077 /* Frameworks */,
 				1F11F4F72078993F00CFF077 /* Resources */,
@@ -177,6 +250,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F11F5132078993F00CFF077 /* Build configuration list for PBXNativeTarget "dataFetchingTestUITests" */;
 			buildPhases = (
+				F090BB64D26D418634F5EAFB /* [CP] Check Pods Manifest.lock */,
 				1F11F5002078993F00CFF077 /* Sources */,
 				1F11F5012078993F00CFF077 /* Frameworks */,
 				1F11F5022078993F00CFF077 /* Resources */,
@@ -240,6 +314,7 @@
 			files = (
 				1F11F4F12078993F00CFF077 /* LaunchScreen.storyboard in Resources */,
 				1F11F4EE2078993F00CFF077 /* Assets.xcassets in Resources */,
+				1F11F524207899FE00CFF077 /* Podfile in Resources */,
 				1F11F4E92078993E00CFF077 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,15 +335,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		252A08F83AF1BAB464BE60A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dataFetchingTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AECA930FA217F4D1C06DECA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dataFetchingTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F090BB64D26D418634F5EAFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dataFetchingTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F11F4DA2078993E00CFF077 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F11F520207899BF00CFF077 /* DBUtility.m in Sources */,
 				1F11F4E62078993E00CFF077 /* ViewController.m in Sources */,
 				1F11F4EC2078993E00CFF077 /* dataFetchingTest.xcdatamodeld in Sources */,
+				1F11F51F207899BF00CFF077 /* NetworkUtility.m in Sources */,
 				1F11F4F42078993F00CFF077 /* main.m in Sources */,
 				1F11F4E32078993E00CFF077 /* AppDelegate.m in Sources */,
+				1F11F522207899BF00CFF077 /* AuthUtility.m in Sources */,
+				1F11F521207899BF00CFF077 /* CommonUtility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,15 +571,13 @@
 		};
 		1F11F50E2078993F00CFF077 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45DBAC424771629E81CB1834 /* Pods-dataFetchingTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HALLDABRA6;
 				INFOPLIST_FILE = dataFetchingTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fritz.dataFetchingTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,15 +586,13 @@
 		};
 		1F11F50F2078993F00CFF077 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF759804C59AAA034CC6D33F /* Pods-dataFetchingTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HALLDABRA6;
 				INFOPLIST_FILE = dataFetchingTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fritz.dataFetchingTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -469,16 +601,13 @@
 		};
 		1F11F5112078993F00CFF077 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEB1220D2F0C7C6C6B055632 /* Pods-dataFetchingTestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HALLDABRA6;
 				INFOPLIST_FILE = dataFetchingTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fritz.dataFetchingTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -488,16 +617,13 @@
 		};
 		1F11F5122078993F00CFF077 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81FF528DD8BC4FCD0EB28C7D /* Pods-dataFetchingTestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HALLDABRA6;
 				INFOPLIST_FILE = dataFetchingTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fritz.dataFetchingTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -507,15 +633,12 @@
 		};
 		1F11F5142078993F00CFF077 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90102509C151176835066400 /* Pods-dataFetchingTestUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HALLDABRA6;
 				INFOPLIST_FILE = dataFetchingTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fritz.dataFetchingTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -525,15 +648,12 @@
 		};
 		1F11F5152078993F00CFF077 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44676A8596971F252F5A140A /* Pods-dataFetchingTestUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HALLDABRA6;
 				INFOPLIST_FILE = dataFetchingTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fritz.dataFetchingTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
